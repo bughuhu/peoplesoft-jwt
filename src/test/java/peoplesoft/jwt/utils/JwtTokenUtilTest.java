@@ -6,7 +6,7 @@ public class JwtTokenUtilTest {
 
 		JwtTokenUtil jwtTokenUtil = new JwtTokenUtil();
 
-		String token = jwtTokenUtil.generateToken("15811393957", "111111");
+		String token = jwtTokenUtil.generateToken("15811393989", "111111");
 
 		System.out.println("token:" + token);
 
